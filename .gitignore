@@ -1,0 +1,6 @@
+#build artifacts
+/obj/
+*.o
+/output/
+# Visual Studio Code settings
+.vscode/
