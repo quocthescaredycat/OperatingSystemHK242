@@ -1,0 +1,11 @@
+1 10
+alloc 300 0
+memmap 0 20
+alloc 300 1
+memmap 1 20
+free 0
+memmap 1 20
+alloc 100 2
+memmap 2 20
+write 102 2 20
+write 1 2 10
