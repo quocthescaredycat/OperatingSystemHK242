@@ -9,8 +9,10 @@ This project implements a simplified OS, focusing on:
 - **Paging-Based Virtual Memory Management**  
 - **System Call Interface** (`killall`)  
 - **Synchronization Mechanisms** for multi-processor safety
+---
 
-Goal: The objective of this assignment is the simulation of major components in a simple operating system,
+## Goal
+The objective of this assignment is the simulation of major components in a simple operating system,
 for example, scheduler, synchronization, related operations of physical memory and virtual memory.
 Content: In detail, students will practice with three major modules: scheduler, synchronization, mechanism
 of memory allocation from virtual-to-physical memory.
@@ -21,8 +23,8 @@ Besides, students will practice the design and implementation of Simple Operatin
 interface via system call.
 Result: After this assignment, students can understand partly the principle of a simple OS. They can
 understand and draw the role of OS key modules.
----
 
+---
 ## Project Structure
 ├── include/ # Header files (.h)
 ├── src/ # Source files (.c)
