@@ -16,21 +16,28 @@ The objective of this assignment is the simulation of major components in a simp
 - scheduler
 - synchronization
 - the operations of mem-allocation from virtual-to-physical
+
+
 Besides, students will practice the design and implementation of Simple Operating System programming interface via system call.
+
+
 Result: After this assignment, students can understand partly the principle of a simple OS. They can understand and draw the role of OS key modules.
 
 ---
 ## Project Structure
-├── include/ # Header files (.h)
-├── src/ # Source files (.c)
-│ ├ scheduler/ # sched.c, queue.c, etc.
-│ ├ memory/ # mm-vm.c, mm-memphy.c, etc.
-│ └ syscall/ # sys_xxxhandler.c
-├── input/ # Sample configs & process descriptions
-├── output/ # Reference outputs for verification
-├── Makefile # Build script
-├── report.pdf # Detailed project report
-└── README.md # You are here
+
+```text
+.
+├── include/           # Header files (.h)
+├── src/               # Source files (.c)
+│   ├── scheduler/     # sched.c, queue.c, etc.
+│   ├── memory/        # mm-vm.c, mm-memphy.c, etc.
+│   └── syscall/       # sys_xxxhandler.c
+├── input/             # Sample configs & process descriptions
+├── output/            # Reference outputs for verification
+├── Makefile           # Build script
+├── report.pdf         # Detailed project report
+```
 ---
 ## Prerequisites
 
@@ -45,6 +52,8 @@ make all
 ./os <input_file>
 ```
 eg. ./os os_syscall
+
+
 Note: This analysis represents findings based on standardized testing environments and common use cases. Individual results may vary based on specific hardware configurations, software requirements, and organizational needs.
 
 ## 📄 License
