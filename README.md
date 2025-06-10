@@ -12,17 +12,12 @@ This project implements a simplified OS, focusing on:
 ---
 
 ## Goal
-The objective of this assignment is the simulation of major components in a simple operating system,
-for example, scheduler, synchronization, related operations of physical memory and virtual memory.
-Content: In detail, students will practice with three major modules: scheduler, synchronization, mechanism
-of memory allocation from virtual-to-physical memory.
-• scheduler
-• synchronization
-• the operations of mem-allocation from virtual-to-physical
-Besides, students will practice the design and implementation of Simple Operating System programming
-interface via system call.
-Result: After this assignment, students can understand partly the principle of a simple OS. They can
-understand and draw the role of OS key modules.
+The objective of this assignment is the simulation of major components in a simple operating system, for example, scheduler, synchronization, related operations of physical memory and virtual memory. Content: In detail, students will practice with three major modules: scheduler, synchronization, mechanism of memory allocation from virtual-to-physical memory.
+- scheduler
+- synchronization
+- the operations of mem-allocation from virtual-to-physical
+Besides, students will practice the design and implementation of Simple Operating System programming interface via system call.
+Result: After this assignment, students can understand partly the principle of a simple OS. They can understand and draw the role of OS key modules.
 
 ---
 ## Project Structure
@@ -36,6 +31,7 @@ understand and draw the role of OS key modules.
 ├── Makefile # Build script
 ├── report.pdf # Detailed project report
 └── README.md # You are here
+---
 ## Prerequisites
 
 - GCC or compatible C compiler  
